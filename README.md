@@ -21,6 +21,27 @@ The dataset used is `diabetes.csv`, containing the health information of individ
 - **DiabetesPedigreeFunction**: Diabetes pedigree function
 - **Age**: Age in years
 
+## Files
+
+- **diabetes.csv**: Dataset file containing health metrics
+- **diabetes_prediction.ipynb**: Jupyter notebook with detailed analysis and code
+- **requirements.txt**: List of Python dependencies
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/diabetes-prediction.git
+   cd diabetes-prediction
+
+2. Installing dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   
 ## Workflow
 
 1. **Data Loading and Preprocessing**:
@@ -39,11 +60,6 @@ The dataset used is `diabetes.csv`, containing the health information of individ
 
 5. **Prediction**:
    - Perform predictions on new input data to determine if the person is diabetic or not.
-
-## Results
-
-- **Accuracy on Training Data**: XX.XX%
-- **Accuracy on Test Data**: XX.XX%
 
 ## Example Prediction
 
